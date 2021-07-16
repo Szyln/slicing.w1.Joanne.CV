@@ -1,0 +1,252 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 1, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_base.scss */
+body {
+  font-family: sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/* line 7, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_base.scss */
+.title {
+  font-size: 80px;
+  line-height: 106px;
+  border-bottom: 2px solid #000;
+}
+
+/* line 13, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_base.scss */
+p {
+  margin-bottom: 24px;
+}
+
+/* line 17, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_base.scss */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 20, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_base.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 23, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_base.scss */
+a:active {
+  text-decoration: none;
+}
+
+/* line 1, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_component.scss */
+.content {
+  margin-bottom: 72px;
+}
+
+/* line 4, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_component.scss */
+.content__title {
+  font-size: 32px;
+  line-height: 43px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 16px;
+}
+
+/* line 11, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_component.scss */
+.content__title-span {
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 16px;
+  font-weight: 500;
+  color: #A00404;
+}
+
+/* line 19, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_component.scss */
+.content__list {
+  margin-bottom: -24px;
+}
+
+/* line 21, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_component.scss */
+.content__list-item {
+  margin-bottom: 24px;
+}
+
+/* line 24, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_component.scss */
+.content__list-img {
+  display: block;
+  padding: 8px 0;
+}
+
+/* line 28, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_component.scss */
+.content__list-para {
+  max-width: 642px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* line 37, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_component.scss */
+.fluid__list {
+  margin-bottom: -16px;
+}
+
+/* line 40, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_component.scss */
+.fluid__list-item {
+  margin-bottom: 16px;
+}
+
+/* line 1, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 8, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.d-block {
+  display: block;
+}
+
+/* line 11, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.d-flex {
+  display: flex;
+}
+
+/* line 14, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.justify-content-center {
+  justify-content: center;
+}
+
+/* line 17, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.mb-0 {
+  margin-bottom: 0;
+}
+
+/* line 20, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.mb-8 {
+  margin-bottom: 32px;
+}
+
+/* line 23, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.ms-6 {
+  margin-left: 24px;
+}
+
+/* line 26, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.my-12 {
+  margin: 48px 0;
+}
+
+/* line 29, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.mb-18 {
+  margin-bottom: 72px;
+}
+
+/* line 32, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.pt-6 {
+  padding-top: 24px;
+}
+
+/* line 35, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.pb-9 {
+  padding-bottom: 36px;
+}
+
+/* line 39, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.px-3 {
+  padding: 0 12px;
+}
+
+/* line 42, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.dark {
+  background-color: #415165;
+}
+
+/* line 46, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.text-light {
+  color: #fff;
+}
+
+/* line 50, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.text-medium {
+  font-weight: 500;
+}
+
+/* line 54, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 58, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.bs-list {
+  border-left: 1px solid #96A9C4;
+  padding-left: 24px;
+}
+
+/* line 63, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.center-inline-block {
+  display: inline-block;
+  text-align-last: left;
+}
+
+/* line 68, ../../../../../Users/sz/8kbps/學習領域/front-end assignment/2021-07 六角切版/w1/Joanne/scss/import/_util.scss */
+.border-light {
+  border-color: #fff;
+}
+
+/*# sourceMappingURL=all.css.map */

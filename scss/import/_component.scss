@@ -1,0 +1,45 @@
+.content {
+  margin-bottom: 72px;
+
+  &__title {
+    font-size: 32px;
+    line-height: 43px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 16px;
+
+    &-span {
+      font-size: 24px;
+      line-height: 32px;
+      margin-left: 16px;
+      font-weight: 500;
+      color: #A00404;
+    }
+  }
+  &__list {
+    margin-bottom: -24px;
+    &-item {
+      margin-bottom: 24px;
+    }
+    &-img {
+      display: block;
+      padding: 8px 0;
+    }
+    &-para {
+      max-width: 642px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+}
+
+.fluid {
+  &__list {
+    margin-bottom: -16px;
+
+    &-item {
+      margin-bottom: 16px;
+    }
+  }
+}
+
